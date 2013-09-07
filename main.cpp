@@ -155,7 +155,7 @@ void printUsage(){
         "-----\n"
         "-b \t\t set parity check bits. This is required.\n"
         "-o \t\t odd parity check. If not sent then performs even\n"
-        "-h \t\t displays help information. "
+        "-h \t\t displays help information.\n"
         "--help \t\t same as -h\n";
     std::cout << str;
 }

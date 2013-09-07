@@ -1,7 +1,8 @@
 /* 
  * File:   main.cpp
  * 
- * Author: Nathan Buckley
+ * Author: Nathan Buckley <binaryferret>
+ *          www.binaryferret.com
  *
  * Description: Simple C++ project that outputs a string that
  *              is to be used in a Parity check lookup table. 

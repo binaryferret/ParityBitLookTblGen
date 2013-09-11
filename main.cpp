@@ -76,9 +76,9 @@ int main(int argc, char* argv[]) {
     //Find how many possible combinations.
     iCombos = pow(2, (double)iBits);
         
-    for(unsigned char i = 0; i < iCombos; i++){
+    for(int i = 0; i < iCombos; i++){
         iBitCount = 0;  //Reset bit count.
-        unsigned char k = i;
+        int k = i;
         for(int j = 0; j < iBits; j++){        
             if(k & 1){
                 //bit is set so count bit. 
